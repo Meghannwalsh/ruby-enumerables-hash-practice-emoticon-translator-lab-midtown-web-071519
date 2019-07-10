@@ -1,7 +1,7 @@
 # require modules here
 require "yaml"
 def load_library()
-  result = YAML.load_file(Rails.root.join('lib', 'emoticons.yml')
+  result = YAML.load_file(Rails.root.join('lib', 'emoticons.yml'))
   result
 end
 
